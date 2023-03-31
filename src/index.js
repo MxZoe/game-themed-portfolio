@@ -1,4 +1,7 @@
-import $ from "jquery";
-import 'bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './css/styles.css';
+
+$(document).ready(function(){
+  $('#top-right').click(function(){
+    $('#home').fadeOut(200).hide(200);
+    $('#about').show();
+  })
+})
